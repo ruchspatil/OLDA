@@ -123,9 +123,7 @@ if user_menu == 'COUNTRY-WISE ANALYSIS':
     else:
         st.warning(f"No medal data available for {selected_country}.")
     
-    st.title("Top 10 athletes of " + selected_country)
-    top10_df = helper.most_successful_countrywise(df,selected_country)
-    st.table(top10_df)
+   
 
 if user_menu == 'ATHLETE WISE ANALYSIS':
     athlete_df = df.drop_duplicates(subset=['Name', 'region'])
