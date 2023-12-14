@@ -83,16 +83,7 @@ if user_menu == 'OVERALL ANALYSIS':
         st.title(athletes)
 
 
-    events_over_time = helper.data_over_time(df, 'Event')
-    fig = px.line(events_over_time, x="Edition", y="Event")
-    st.title("Events over the years")
-    st.plotly_chart(fig)
-
-    athlete_over_time = helper.data_over_time(df, 'Name')
-    fig = px.line(athlete_over_time, x="Edition", y="Name")
-    st.title("Athletes over the years")
-    st.plotly_chart(fig)
-
+ 
     st.title("No. of Events over time(Every Sport)")
     fig,ax = plt.subplots(figsize=(20,20))
     x = df.drop_duplicates(['Year', 'Sport', 'Event'])
