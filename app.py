@@ -81,8 +81,6 @@ if user_menu == 'OVERALL ANALYSIS':
     with col3:
         st.header("Athletes")
         st.title(athletes)
-
-
  
     st.title("No. of Events over time(Every Sport)")
     fig,ax = plt.subplots(figsize=(20,20))
@@ -91,14 +89,6 @@ if user_menu == 'OVERALL ANALYSIS':
                 annot=True)
     st.pyplot(fig)
 
-    st.title("Most successful Athletes")
-    sport_list = df['Sport'].unique().tolist()
-    sport_list.sort()
-    sport_list.insert(0,'Overall')
-
-    selected_sport = st.selectbox('Select a Sport',sport_list)
-    x = helper.most_successful(df,selected_sport)
-    st.table(x)
 
 if user_menu == 'COUNTRY-WISE ANALYSIS':
 
@@ -156,12 +146,7 @@ if user_menu == 'ATHLETE WISE ANALYSIS':
 
     fig = ff.create_distplot(x, name, show_hist=False, show_rug=False)
     fig.update_layout(autosize=False, width=1000, height=600)
-    st.title("Distribution of Age wrt Sports(Gold Medalist)")
-    st.plotly_chart(fig)
-
-    sport_list = df['Sport'].unique().tolist()
-    sport_list.sort()
-    sport_list.insert(0, 'Overall')
+  
 
 
     st.title("Men Vs Women Participation Over the Years")
