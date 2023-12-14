@@ -144,12 +144,7 @@ if user_menu == 'ATHLETE WISE ANALYSIS':
         x.append(temp_df[temp_df['Medal'] == 'Gold']['Age'].dropna())
         name.append(sport)
 
-    
-    st.title("Men Vs Women Participation Over the Years")
-    final = helper.men_vs_women(df)
-    fig = px.line(final, x="Year", y=["Male", "Female"])
-    fig.update_layout(autosize=False, width=1000, height=600)
-    st.plotly_chart(fig)
+
 
 
 
