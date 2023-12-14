@@ -79,12 +79,16 @@ def country_event_heatmap(df,country):
 
 
 def most_successful_countrywise(df, country):
+    # Drop rows with missing values in the 'Medal' column
     temp_df = df.dropna(subset=['Medal'])
 
+    # Filter the dataframe to include only rows where the 'region' column matches the specified country
     temp_df = temp_df[temp_df['region'] == country]
 
+    # Count occurrences of each athlete's name, take the top 10
     top_athletes = temp_df['Name'].value_counts().reset_index().head(10)
 
+    # Merge with the original dataframe on the athlete's name
     x = pd.merge(top_athletes, df, left_on='index', right_on='Name', how='left')[['index', 'Name_x', 'Sport']].drop_duplicates('index')
 
     # Rename columns
