@@ -1,6 +1,6 @@
-<h1 id="custom-id" align="center">Olympics-data-analysis-web-app</h1>
+<h1 id="custom-id" align="center">Olympics Data Analysis Web App</h1>
 
-Olympics data analysis is a web application based on streamlit framework. The primary objective of this paper is to analyze the Olympic dataset using python to compare overall performance of countries and to evaluate the contribution of each country in the Olympics. In this project, the exploratory data analysis techniques are used to provide comparison between performance of various countries and the contribution of each country in the Olympics. Visualization of the data over various factors will provide us with the statistical view of the various factors which lead to the evolution of the Olympic Games and Improvement in the performance of various Countries/Players over time.
+***Olympics data analysis*** is a web application based on streamlit framework. The primary objective of this paper is to analyze the Olympic dataset using python to compare overall performance of countries and to evaluate the contribution of each country in the Olympics. In this project, the exploratory data analysis techniques are used to provide comparison between performance of various countries and the contribution of each country in the Olympics. Visualization of the data over various factors will provide us with the statistical view of the various factors which lead to the evolution of the Olympic Games and Improvement in the performance of various Countries/Players over time.
 
 [![gettyimages-466313493-2.jpg](https://i.postimg.cc/bNBJ9GgP/gettyimages-466313493-2.jpg)](https://postimg.cc/BX24qnR7)
 
