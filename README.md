@@ -22,7 +22,7 @@ Streamlit       |      Ploty       |
 -|        Matploylib  |  
 
   
-## Libraries -:
+## Installation -:
 
 • pip install streamlit</br>
 • pip install plotly</br>
