@@ -16,5 +16,5 @@
 
 • pip install streamlit</br>
 • pip install plotly</br>
-• pip install seaborn
+• pip install seaborn</br>
 • pip install matplotlib
