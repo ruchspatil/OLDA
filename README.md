@@ -11,3 +11,11 @@
 1. Data Collection</br>
 2. Data Pre-Processing</br>
 3. Exploratory Data Analysis</br>
+
+## Libraries -:
+streamlit
+plotly
+seaborn
+matplotlib
+• pip install chatterbot</br>
+• pip install chatterbot-corpus
