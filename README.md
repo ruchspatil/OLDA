@@ -12,6 +12,16 @@
 2. Data Pre-Processing</br>
 3. Exploratory Data Analysis</br>
 
+## Technologies used -:
+
+Language & Framework| Libraries |  
+:----------------------: | :---------------------: |
+Python          |        Pandas    |   
+Streamlit       |      Ploty       |        
+-|        Seaborn   |  
+-|        Matploylib  |  
+
+  
 ## Libraries -:
 
 • pip install streamlit</br>
