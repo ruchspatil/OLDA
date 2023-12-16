@@ -13,9 +13,8 @@
 3. Exploratory Data Analysis</br>
 
 ## Libraries -:
-streamlit
-plotly
-seaborn
-matplotlib
-• pip install chatterbot</br>
-• pip install chatterbot-corpus
+
+• pip install streamlit</br>
+• pip install plotly</br>
+• pip install seaborn
+• pip install matplotlib
